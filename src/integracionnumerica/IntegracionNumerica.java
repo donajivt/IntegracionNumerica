@@ -115,8 +115,4 @@ public class IntegracionNumerica extends JFrame {
             throw new RuntimeException("Error evaluando la función: " + e.getMessage());
         }
     }
-    
-    public static void main(String[] args) {
-        SwingUtilities.invokeLater(() -> new IntegracionNumerica().setVisible(true));
-    }
 }

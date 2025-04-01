@@ -4,14 +4,15 @@
  */
 package integracionnumerica;
 
+import integracionnumerica.View.IntegracionView;
+
 /**
  *
  * @author vania
  */
-import javax.swing.SwingUtilities;
-
 public class Main {
     public static void main(String[] args) {
-        SwingUtilities.invokeLater(() -> new IntegracionNumerica().setVisible(true));
+        IntegracionView vista = new IntegracionView();
+        vista.setVisible(true);
     }
 }
